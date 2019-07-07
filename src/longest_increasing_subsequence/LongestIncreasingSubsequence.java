@@ -32,8 +32,5 @@ public class LongestIncreasingSubsequence {
             stringBuilder.append(input[arrayList.indexOf(i)]+" ");
         }
         System.out.println(stringBuilder.toString());
-
-
-
     }
 }
