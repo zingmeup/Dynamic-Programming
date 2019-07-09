@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a700e29-6919-498b-9d88-20b17411a4b7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/binomial_coefficients/BinomialCoefficient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eggdropping/EggDroppingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/knapsack/Knapsack01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dynamic-Programming/binomial_coefficients/BinomialCoefficient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dynamic-Programming/binomial_coefficients/BinomialCoefficient.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,11 +56,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinomialCoefficient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinomialCoefficient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/binomial_coefficients/BinomialCoefficient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Knapsack01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/knapsack/Knapsack01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EggDroppingProblem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/eggdropping/EggDroppingProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,6 +106,8 @@
         <option value="$PROJECT_DIR$/src/longest_common_subsequence/LongestCommonSubsequence.java" />
         <option value="$PROJECT_DIR$/src/minimum_edit/MinimumEdit.java" />
         <option value="$PROJECT_DIR$/src/binomial_coefficients/BinomialCoefficient.java" />
+        <option value="$PROJECT_DIR$/src/knapsack/Knapsack01.java" />
+        <option value="$PROJECT_DIR$/src/eggdropping/EggDroppingProblem.java" />
       </list>
     </option>
   </component>
@@ -132,6 +158,18 @@
               <item name="Dynamic-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dynamic-Programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="eggdropping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dynamic-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dynamic-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="knapsack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dynamic-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dynamic-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="longest_common_subsequence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -169,9 +207,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Binomial Coefficient">
+  <component name="RunManager" selected="Application.Eggdropping">
     <configuration name="Binomial Coefficient" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="binomial_coefficients.BinomialCoefficient" />
+      <module name="Dynamic-Programming" />
+    </configuration>
+    <configuration name="Eggdropping" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="eggdropping.EggDroppingProblem" />
       <module name="Dynamic-Programming" />
     </configuration>
     <configuration name="LCS" type="Application" factoryName="Application">
@@ -189,10 +231,16 @@
       <option name="MAIN_CLASS_NAME" value="minimum_edit.MinimumEdit" />
       <module name="Dynamic-Programming" />
     </configuration>
+    <configuration name="knapsack" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="knapsack.Knapsack01" />
+      <module name="Dynamic-Programming" />
+    </configuration>
     <list>
       <item itemvalue="Application.LCS" />
       <item itemvalue="Application.Minimum Edits" />
       <item itemvalue="Application.Binomial Coefficient" />
+      <item itemvalue="Application.knapsack" />
+      <item itemvalue="Application.Eggdropping" />
       <item itemvalue="Application.LIS" />
     </list>
     <recent_temporary>
@@ -211,12 +259,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562523157060</updated>
-      <workItem from="1562523162935" duration="12057000" />
+      <workItem from="1562523162935" duration="14287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12057000" />
+    <option name="totallyTimeSpent" value="14287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -294,6 +342,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/knapsack/Knapsack01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eggdropping/EggDroppingProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
